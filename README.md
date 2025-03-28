@@ -5,7 +5,7 @@ A powerful utility for converting text to speech using OpenAI's TTS voice, with 
 ## Installation
 
 ```sh
-npm install @symthink/voiceover
+git clone https://github.com/symthink/voiceover.git
 ```
 
 ## Usage
