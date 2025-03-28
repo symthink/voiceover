@@ -1,0 +1,5 @@
+- screen: introduction
+  speed: '1.2'
+  text: Your introduction text here.  You can optionally specify the speed.  It defaults to 1.3.
+- screen: overview
+  text: The audio files are named after the screen name.  The regular speed file is produced from the OpenAI text-to-speech api is stored in the "audio" folder.  Then the "ffmpeg" utility is used to adjust the speed while boosting base and reducing the treble just a bit, to enhance the voice quality at the higher speed.  The post-processed file is then stored under the "audio-processed".
